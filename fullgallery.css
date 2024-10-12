@@ -1,0 +1,92 @@
+
+*{
+    margin: 0px;
+
+} 
+    
+/* this is the main gallery folder  */
+
+.explore-gallery-text{
+    text-align: center;
+    font-family: 'poppins';
+    color: #0000ff;
+}
+
+
+
+.gallery-folder{
+    margin: 4rem 0rem;
+    display: flex;
+    gap: .6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.folder img{
+    width: 22rem;
+    height: 18rem;
+}
+.folder{
+    width: 22rem;
+    height: 18rem;
+    /* border: .1rem solid black; */
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+}
+.type-of-photos {
+    text-align: center;
+    width: 22rem;
+    position: absolute;
+    font-size: 1.5rem;
+    background-color: white;
+    height: 5rem;
+    margin: 13rem 0rem 1rem -22rem;
+}
+.type-of-photos p{
+   margin: 1rem 0rem;
+   font-size: 1.5rem;
+   font-family:"Poppins",sans-serif;
+   font-weight: 580;
+}
+.main-image{
+    position: sticky;
+    width: 100%;
+    height:31rem;
+    margin: -1rem 0rem 4rem 0rem;
+}
+
+.folder:hover .type-of-photos{
+    height: 6rem;
+    margin: 12rem 0rem 1rem -22rem;
+transition: all .3s ease;
+    cursor: pointer;
+}
+.folder:hover img{
+    opacity: .8;
+}
+.for-360-view{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text-360-view{
+    text-align: center;
+    font-family: 'poppins';
+    margin: 1rem 0rem;
+    color: #0000ff;
+}
+@media (max-width:1000px){
+    .main-image {
+        position: sticky;
+        width: 100%;
+        height: 18rem;
+        margin: -1rem 0rem 0rem 0rem;
+    }
+    .for-360-view{
+        width: 23rem;
+        margin: 1rem auto;
+    }
+    iframe{
+      margin: 1rem 0rem;
+    }
+}

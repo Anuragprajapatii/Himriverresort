@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    font-family: 'poppins';
+}
+.image-for-privacy-policy img{
+    width: 100%;
+    height: 35rem;
+}
+
+.details-para ,.hotel-policy{
+    padding: .9rem;
+}
+
+.details-para p{
+    margin: 1rem .5rem;
+    
+}
+.hotel-policy p{
+    margin: 1rem 0.5rem;
+    }
+h1{
+    text-align: center;
+    margin: 1rem 0rem;
+    color: ;
+}
+
+h2{
+    text-align: center;
+}
+h4{
+    color: rgba(250, 53, 53, 0.842);
+}
+.details-para li{
+    list-style: none;
+    padding: 1rem;
+}
+@media (max-width:1000px){
+    .image-for-privacy-policy img {
+        width: 100%;
+        height: 20rem;
+    }
+}

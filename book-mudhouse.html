@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Him River Resort</title>
+    <link rel="website icon" type="png"
+    href="/images/for-footer-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/style folder/nav-bar.css">
+    <link rel="stylesheet" href="/style folder/footer.css">
+    <link rel="stylesheet" href="/style folder/book-room.css">
+</head>
+<body>
+    <div class="nav-bar nav-onscroll">
+           
+        <ul>
+            <li><img src="/images/for-footer-logo.png" alt="" id="image-logo"></li>
+            <li><a href="/mainpage.html">Home</a></li>
+
+            <li><a href="/html links/fullgallery.html">Gallery</a></li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn">Events Booking<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/html links/event-newyear.html">New Year Celebration</a>
+                        <a href="/html links/event-holi.html">Holi Celebration</a>
+                        <a href="/html links/event-bithday.html">Birthday Celebration</a>
+                    </div>
+                </div>
+            </li>
+            <!-- <li>
+                 <div class="dropdown">
+                    <a class="dropbtn">Rooms<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/html links/luxeryriverside.html">Luxery Riverside</a>
+                        <a href="#">Standard Riverside</a>
+                        <a href="#">Delux Gardenview</a>
+                        <a href="/html links/mudhouse.html">Mud House</a>
+                    </div> 
+                </div>
+            </li> -->
+
+            <li><a href="/html links/destinationwedding.html">Destination Wedding</a></li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn">Activities<i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="/html links/rafting-activity.html">River Rafting</a>
+                        <a href="/html links/bungeehigh-activity.html">Bungee Jumping</a>
+                        <a href="/html links/flying-fox.html">Flying Fox</a>
+                        <a href="/html links/explore-rishikesh.html">Explore Rishikesh</a>
+                    </div>
+                </div>
+
+            </li>
+            <li><a href="/html links/contact-us.html">Contact Us</a></li>
+            <li class="nav-call"><a href=""><i class="fa-solid fa-phone"></i>+91 9024860746</a></li>
+          
+          
+             
+           
+        </ul>
+        <div class="for-responsive-with-logo"><i class="fa-solid fa-bars"  id="hamberger" ></i><img class="logo-image-responsive" src="/images/for-footer-logo.png" alt="">
+       </div>
+            <!-- <img class="logo-image-responsive" src="/images/for-footer-logo.png" alt=""> -->
+       
+    </div>
+    
+
+    <div class="luxery-riverside-image">
+        <img src="/images/edited/forfooterimg-bg.jpg" alt="">
+    </div>
+    <div class="text-room-type"><h2>MUDHOUSE</h2><hr></div>
+    <div class="gallery-form-container">
+    <div class="gallery-btn">
+           <button class="left-btn"><i class="fa-solid fa-angle-left"></i></button>
+        <div class="room-gallery">
+            <img src="/images/edited/mudhouse7.jpg" alt=""  id="live-gallery-image">
+        </div>
+        <button class="right-btn"><i class="fa-solid fa-angle-right"></i></button>
+        <div class="info-box-1">
+            <span class="box-content"><i class="fa-solid fa-indian-rupee-sign">5,999</i>/couple-night</span>
+         </div>
+    </div>
+    <div class="book-form">
+        <h2>BOOK NOW</h2>
+        <div class="input-details">
+            <div class="input-text" >Check In Date</div>
+            <input id="checkin-1" placeholder="MM/DD/YYYY" onfocus="(this.type='date')">
+            <div class="input-text" >Check Out Date</div>
+            <input id="checkout-1" placeholder="MM/DD/YYYY" onfocus="(this.type='date')">
+            <div class="input-text">Adults</div>
+            <select name="adults" id="peoples-1">                    
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <div class="input-text">Rooms</div>
+            <select name="rooms" id="rooms">
+                <option value="">Rooms</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <div class="check-avl-btn"><button class="check-available" onclick="bookmudhouse()">Message Via Whatsapp</button></div>
+        </div>
+    </div>
+    </div>
+ 
+    <div class="aminities-check-info">
+        <div class="room-amenities">
+            <h3>Room Amenities</h3>
+            <div class="flex-1">
+                <div class="amenities">
+                <i class="fa-solid fa-bed"></i>
+                <h4>Bed King</h4> 
+                </div>
+                <div class="amenities">
+                <i class="fa-solid fa-wifi"></i>
+                <h4> Wireless Connection</h4>
+                </div>
+                <div class="amenities">
+                <i class="fa-solid fa-water"></i>
+                <h4> River View</h4>
+                </div>
+                <div class="amenities">
+                <i class="fa-solid fa-bell-concierge"></i>
+                <h4>24*7 room service</h4>
+                </div>
+                <div class="amenities">
+                    <i class="fa-solid fa-car"></i>
+                    <h4>Parking</h4> 
+                    </div>
+                    <div class="amenities">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                    <h4>UPI is available</h4>
+                    </div>
+                    <div class="amenities">
+                        <i class="fa-solid fa-desktop"></i>
+                    <h4>Travel & tourist information</h4>
+                    </div>
+                    <div class="amenities">
+                        <i class="fa-solid fa-mountain-city"></i>
+                    <h4>Exclusive Location</h4>
+                    </div>
+            </div>
+           </div>
+           <div class="khalicontainer">
+            <h3>Room Include</h3>
+           <div class="room-info-1">
+            
+            <div class="day-1">
+              <ul>  <h2>Day-1</h2><br></ul></li>
+               <li> <span><b>Check-In:</b>  12PM</span></li>
+                <li><span><b>Lunch:</b>     1-2PM</span></li>
+               <li> <span><b>Snacks:</b>    6-7PM</span></li>
+                <li><span><b>dinner</b>     (veg,non-veg):9-10PM</span></li>
+            </div>
+            <div class="day-1">
+               <ul> <h2>Day-2</h2><br></ul>
+               <li> <span><b>Morning-breakfast</b>9-10AM</span></li>
+              <li>  <span><b>Check-out:</b>10:30AM</span></li>
+            </div>
+           </div>
+           </div>
+     </div>
+</div>
+<div class="other-rooms-1">
+    
+    <div class="type-of-room">
+        <div class="room-image-container-1">
+            <img src="/images/edited/luxeryriverside-7.jpg" alt=""> 
+              <div class="room-text-container">
+                       <h2>LUXERY RIVERSIDE</h2>
+                       <span class="prise"><i class="fa-solid fa-indian-rupee-sign">9,999</i>/couple-night</span>
+                       <div class="details-btn" ><a href="/html links/book-luxeryriverside.html"><button >See Details</button></a></div>
+              </div>   
+         </div>
+        <div class="room-image-container-1">
+            <img src="/images/edited/luxeryriverside-8.jpg" alt=""> 
+            <div class="room-text-container">
+                    <h2>STANDARD RIVERSIDE</h2>
+                    <span class="prise"><i class="fa-solid fa-indian-rupee-sign"></i>7,999/couple-night</span>
+                    <div class="details-btn" ><a href="/html links/book-standardriverseide.html"><button >See Details</button></a></div>
+            </div>   
+        </div>
+        <div class="room-image-container-1">
+            <img src="/images/edited/luxeryriverside-4.jpeg" alt=""> 
+            <div class="room-text-container">
+                    <h2>DELUX GARDENVIEW</h2>
+                    <span class="prise"><i class="fa-solid fa-indian-rupee-sign"></i>7,999/couple-night</span>
+                    <div class="details-btn" ><a href="/html links/book-deluxgardenview.html"><button >See Details</button></a></div>
+            </div>   
+        </div>
+        <!-- <div class="room-image-container-1">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipOFkN8XgZL0btB03b1_BxzAzyhfl_rprdTCoxc=w253-h189-k-no" alt=""> 
+            <div class="room-text-container">
+                    <h2>MUDHOUSE</h2>
+                    <span class="prise"><i class="fa-solid fa-indian-rupee-sign"></i>5,999/couple-night<br>(with all meals)</span>
+                    <div class="details-btn"><button>See Details</button></div>
+            </div>   
+        </div> -->
+    </div>
+
+</div>
+   
+<footer class="footer">
+      
+    <div class="footer-list-container">
+         <div class="list-1-contact-info sizing">
+             <ul>
+                 <h2>Contact Info</h2>
+                 <li><a href="https://maps.app.goo.gl/SDqmcRARYNhxXqqK8"><i class="fa-solid fa-location-dot"></i>Him River Resort,Neelkanth Temple Road P.O, Maral, Rishikesh, Uttarakhand 249304</a></li>
+                 <li><a href="tel:919024860746"><i class="fa-solid fa-phone" ></i>+91 9024860746</a></li>
+                 <li><a href=""><i class="fa-solid fa-envelope"></i>office@himriverresort.com</a></li>
+                 
+             </ul>
+         </div>
+         <div class="2-overview sizing">
+             <ul>
+                 <h2>Overview</h2>
+                 <li><a href="/html links/aboutus.html">About The Resort</a></li>
+                 <li><a href="/html links/aminities.html">Amenities</a></li>
+                 <li><a href="/html links/how-to-reach-us.html">How To Reach US</a></li>
+                 <li><a href="/html links/fullgallery.html">Photo Gallery</a></li>
+                 <li><a href="/html links/explore-rishikesh.html">Explore Rishikesh</a></li>
+                 <li><a href="/html links/contact-us.html">Contact Us</a></li>
+                 
+             </ul>
+         </div>
+         <div class="3-accomodation sizing">
+             <ul>
+                 <h2>Accomodation</h2>   
+                 <li><a href="/html links/book-luxeryriverside.html">Luxery Riverside</a></li>
+                 <li><a href="/html links/book-standardriverseide.html">Standard Riverside</a></li>
+                 <li><a href="/html links/book-deluxgardenview.html">Delux Gardenview</a></li>
+                 <li><a href="/html links/book-mudhouse.html">MudHouse </a></li>
+                 
+             </ul>
+         </div>
+         <div class="quick-links sizing">
+             <ul>
+                 <h2>Quick Links</h2>
+                 <li><a href="/html links/terms-and-condition.html">Terms & Condition</a></li>
+                 <li><a href="/html links/privacy-policy.html">Privacy Policy</a></li>
+                 <li><a href="/html links/refund-and-cancel.html">Cancelation & Refund Policy</a></li>
+                 <!-- <li><a href="">Reservation Policy</a></li> -->
+                 <li><a href="/html links/contact-us.html">Book Now</a></li>
+                 
+             </ul>
+         </div>
+
+    </div>
+   
+   
+    <img src="/images/edited/forfooterimg-bg.jpg" alt="">
+    <div class="social-media-handle">
+     <div class="container-handle">
+         <a href="https://www.facebook.com/himriverresortss" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+     </div>
+     <div class="container-handle">
+         <a href="https://www.instagram.com/himriver.resort/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+     </div>
+     <div class="container-handle">
+         <a href="https://www.youtube.com/@himriverresorts" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+     </div>
+    </div>
+    <div class="anurag">
+        <p>All Rights Reserved <i class="fa-regular fa-copyright"></i></p>
+        <p>Design & Devloped By <a href="">@Anurag</a></p>
+       </div>
+ </footer>
+     <script src="/javascript/book-mudhouse.js"></script>
+     <script src="/javascript/nav-bar.js"></script>
+</body>
+</html>

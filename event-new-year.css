@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Poppins';
+}
+.image-new-year img{
+    width: 100%;
+    height: 20rem;
+}
+.text-new-year {
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.newyear-party img{
+    width: 40rem;
+    height: 25rem;
+    padding: 1rem;
+}
+.image-new-year-include{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.new-year-include {
+    width: 45rem;
+}
+.new-year-include p{
+    padding: 0.9rem 1rem;
+    font-size: 1.1rem;
+}
+.aminities-1 img{
+    width: 20rem;
+    margin: 1rem;
+}
+.container-aminites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem 0rem;
+}
+.aminities-1 p{
+    text-align: center;
+}
+
+/* this is a form for new year booking  */
+
+
+.map-with-form{
+    margin: 5rem 0rem ;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.contact-us-form{
+    background-image: url("/images/edited/form-bg-neyear.jpeg");
+    /* border: .2rem solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+    margin:4rem auto ;
+}
+.contact-us-form input{
+padding: .6rem;
+margin: .5rem;
+font-size: 1rem;
+background: rgba(255, 255, 255, 0.693);
+
+}
+
+.contact-us-form span {
+    text-align: center;
+}
+.form-text-contact{
+    text-align: center;
+}
+.btn-call-contact button{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1.4rem;
+    font-size: 17px;
+    border: 2px solid transparent;
+    background-color: #b28756;
+}
+.btn-call-contact button:hover{
+    border:2px solid #ffffff;
+    color: #f8f5f2;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+@media(max-width:1000px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .contact-us-form {
+        background-image: url(/images/edited/form-bg-neyear.jpeg);
+        /* border: .2rem solid black; */
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        padding: 2rem;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+        margin: 4rem auto;
+    }
+    .newyear-party img {
+        width: 20rem;
+        height: 13rem;
+       padding: 0rem 2rem;
+    }
+    .text-new-year h1,h2{
+        font-size: 1.1rem;
+    }
+}

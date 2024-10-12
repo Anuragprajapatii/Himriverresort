@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+}
+.footer img{
+    /* background-image: url("/images/edited/forfooterimg-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 580px;
+    filter: brightness(30%);
+   
+  }
+.footer-list-container h2{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  /* text-align: center; */
+  padding: 0px 12px 0px 0px;
+  
+}
+.sizing a i{
+  padding: 4px;
+}
+.sizing a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.881);
+  
+}
+ .footer-list-container{
+  padding: 120px 0px 0px 90px ;
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+z-index: 100;
+ }
+ .sizing{
+  padding: 20px 20px 0px 20px;
+  width: 300px;
+  height: auto;
+ }
+ .sizing li{
+  padding: 12px 0px 12px 0px;
+  list-style-type: circle;
+  color: white;
+  text-align: start;
+  font-family:sans-serif;
+ }
+.sizing li:hover a{
+  padding-left: 8px;
+  transition: all 1s ease;
+  color: #b28756;
+}
+.copyright{
+  font-size: 20px;
+  margin-top: -8px;
+  background-color: #1B232E;
+  padding: 12px;
+  color: rgb(251, 245, 245);
+}
+.copyright span{
+  float: right;
+}
+.copyright span a{
+  text-decoration: none;
+  color: #B17461;
+}
+.social-media-handle{
+    display: flex;
+    
+    font-size: 2rem;
+    margin: -4rem 1rem 5rem 1rem;
+    position: relative;
+    justify-content: center;
+    gap: 1rem;
+    }
+    .social-media-handle a{
+      color: rgb(255, 255, 255);
+    }
+    .anurag{
+      position: relative;
+      color: white;
+      margin-top: -4rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .anurag a{
+      text-decoration: none;
+      color: #6c4500;
+    }
+@media(max-width:1376px){
+    .footer-list-container{
+        padding:0px 0px ;
+      }
+      .footer img {
+        width: 100%;
+        height: 77rem;
+        filter: brightness(30%);
+      }
+      .footer{
+        flex-wrap: wrap;
+        padding: 0px 0px 0px 0px;
+    }
+    .social-media-handle{
+        display: flex;
+        
+        font-size: 2rem;
+        margin-top: -6rem ;
+        position: relative;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 0px;
+        }
+        .anurag{
+          position: relative;
+          color: white;
+          margin-top: 0rem ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    
+}    

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: "Poppins";
+}
+.resort-image img{
+width: 100%;
+height: 30rem;
+}
+.rafting-pakage-image img{
+    width: 90%;
+    height: 30rem;
+   
+}
+.rafting-pakage-image{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.package-include {
+display: flex;
+justify-content: center;
+margin: 1rem 0rem;
+}
+.rafting-video video{
+    
+    width: 48rem;
+    
+}
+.package-info-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin: 4rem 0rem;
+    justify-content: center;
+    
+}
+.package-info p{
+    width: 40rem;
+}
+.package-info{
+    width: 40%;
+
+    /* border: 1px solid red; */
+}
+.package-info li{
+    font-size: 1.3rem;
+    border: 1px dashed black;
+    padding: 0rem;
+    margin: .5rem;
+    list-style: none;
+    text-align: center;
+}
+.map-with-form{
+    margin: 5rem 0rem ;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-us-form{
+    /* border: .2rem solid black; */
+    background-image: url("/images/edited/rafting-form.webp");
+    background-size: cover;
+    filter: brightness(70%);
+    display: flex;
+    
+    flex-direction: column;
+    width: 40rem;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+}
+.contact-us-form input{
+padding: .6rem;
+margin: .5rem;
+font-size: 1rem;
+background-color: rgba(255, 255, 255, 0.644);
+
+}
+input::placeholder{
+    color: rgb(22, 21, 21);
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+.contact-us-form span {
+    text-align: center;
+}
+.form-text-contact h1{
+    text-align: center;
+    color: #f9c181;
+    filter: brightness(130%);
+}
+.btn-call-contact button{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1.4rem;
+    font-size: 17px;
+    border: 2px solid transparent;
+    background-color: #b28756;
+}
+.btn-call-contact button:hover{
+    border:4px solid #b28756;
+    color: #fefdfb;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+input:hover{
+    background-color: white;
+}
+.form-days{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem 0rem;
+}
+.room-include-det{
+    padding: 2rem;
+}
+.room-include-det ul li{
+    list-style: none;
+    padding: .6rem 0rem;
+}
+.room-include-det i{
+    font-size: 1.5rem;
+    padding: 0rem .3rem;
+    color: #b28756;
+}
+@media(max-width:950px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .resort-image img {
+        width: 100%;
+        height: auto;
+    }
+    .rafting-video video {
+        
+        width: 23rem;
+        padding: 0px;
+    }
+    .package-include {
+        font-size: .5rem;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+    .rafting-pakage-image img {
+        width: 90%;
+        height: auto;
+    }
+    .contact-us-form{
+        width: 19rem;
+    }
+    .package-info {
+        width: 91%;
+        /* border: 1px solid red; */
+    }
+    .package-info ul{
+        padding: 0px;
+    }
+}

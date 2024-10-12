@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    font-family: 'poppins';
+}
+.luxery-riverside-image img{
+  width: 100%;
+  height: 32rem;
+}
+
+.text-room-type{
+    text-align: center;
+    color: rgb(0, 0, 145);
+    font-size: 1.3rem;
+}
+.gallery-form-container{
+    margin: 3rem 0rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.room-gallery img{
+    width: 50rem;
+    height: 30rem;
+    padding-left: .8rem;
+}
+.gallery-btn button{
+   position: relative;
+   padding: .7rem;
+   border-radius: 50%;
+   border: none;
+   background-color: rgba(255, 255, 255, 0.844);
+}
+.gallery-btn button:hover{
+    background-color: rgba(0, 0, 0, 0.451);
+}
+
+.right-btn{
+left: 98%;
+bottom: 45%;
+
+}
+.left-btn{
+
+top: 40%;
+}
+
+
+/*this is the form container*/
+
+.book-form{
+    /* margin: 5.5rem 7.5rem; */
+    /* padding: 20px 20px 0px 20px; */
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 2rem .3rem rgba(0, 0, 0, 0.05)
+    
+}
+.book-form input{
+    padding: 1rem;
+    width: 28rem;
+    border: none;
+    background-color: rgba(159, 159, 151, 0.44);
+    border-radius: 1.2rem;
+}
+.book-form select{
+    padding: 1.0rem;
+    width: 30rem;
+    border: none;
+    background-color: rgba(159, 159, 151, 0.44);
+    border-radius: 1.2rem;
+}
+
+
+.input-text{
+    padding: 1.2rem 0rem .2rem 1.2rem;
+    font-family: sans-serif;
+     font-size: 1rem;
+     opacity: 0.80;
+}
+.book-form h2{
+    width: 32rem;
+    background-color: rgba(159, 159, 151, 0.44);
+    height: 3.0rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: rgb(0, 0, 145);
+    font-size: 1.6rem;
+}
+.input-details{
+    padding: 2.2rem 0rem 2.9rem 1.2rem;
+}
+.check-available{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 12px;
+    border-radius: 30px;
+    border:none;
+    background-color: #cc8c18;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.check-avl-btn{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.check-avl-btn button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(1, 1, 123);
+    color: rgb(1, 1, 123);
+    transition: all 1s ease-out;
+}
+ select option{
+    padding: 12px;
+}
+
+.info-box-1{
+    border: 1px solid black;
+    width: 14rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+
+.amenities i{
+    color: #cc8c18;
+    padding-top: 20px;
+font-size: 40px;
+text-align: center;
+}
+.amenities{
+    width: 160px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+/* border: 2px solid black; */
+padding: 12px 12px 40px 12px;
+box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05)
+}
+.amenities h4{
+    color: rgb(0, 0, 145);
+    padding-top: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+.room-amenities h3{
+    width: auto;
+    /* background-color: rgba(159, 159, 151, 0.44); */
+    height: 40px;
+    /* text-align: center; */
+    padding: 6px 0px 0px 40px;
+    color: rgb(0, 0, 145);
+    font-size: 25px;
+}
+
+/* this is for the other rooms container  */
+.day-1 ul{
+    list-style: none;
+}
+
+.room-image-container-1 img{
+    /* box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.456) ; */
+    width: 440px;
+    height: 440px;
+    margin: 4px 2px;
+    padding: 0px 6px;
+    /* border: 8px solid #fff; */
+  }
+  .type-of-room{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 10px;
+    justify-content: space-evenly;
+    gap: 2px;
+    position: relative;
+  }
+  .room-image-container-1{
+   
+    height: 420px;
+  /* box-shadow: 2px 2px grey ; */
+  overflow: hidden;
+  padding: 4px;
+  /* border: 1px solid rgb(153, 67, 67); */
+  }
+  
+  .room-text-container{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 12px; */
+    width: 450px;
+    height: 57px;
+    /* padding: 6px; */
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 65px;
+    background-color: #fff;
+    color:#cc8c18 ;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    /* box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.762); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.151), 0 6px 20px 0 rgba(0, 0, 0, 0.162); */
+  }
+  .room-text-container h2{
+    padding-top: 2px;
+    font-size: 1.3rem;
+  }
+  .prise{
+    visibility: hidden;
+    opacity: 0;
+    padding: 5px 0px;
+  }
+  .box-content{
+    font-size: 1.1rem;
+  }
+  .details-btn{
+    visibility: hidden;
+    opacity: 0;
+    padding: 0px 0px;
+  }
+  .details-btn button{
+    border: none;
+    padding: 10px 34px;
+    border-radius: 30px;
+    background-color: #cc8c18;
+    color: white;
+  }
+  .room-image-container-1:hover .room-text-container{
+    height: 140px;
+    bottom: 148px;
+    background-color: #ffffff;
+    transition: all 0.7s;
+  }
+  .room-image-container-1:hover img{
+    opacity: 0.8;
+  }
+  .room-image-container-1:hover .prise{
+    opacity: 1;
+    transition: all 0.4s ease ;
+    visibility: visible;
+  }
+  .room-image-container-1:hover .details-btn{
+    opacity: 1;
+    transition: all 0.4s ease;
+    visibility: visible;
+  }
+
+ .aminities-check-info{
+    margin: 4rem 0rem;
+    display: flex;
+    flex-direction: row;
+    gap: 17rem;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .room-info-1{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 20rem;
+ }
+ .day-1{
+    font-size: 1rem;
+ }
+ .flex-1{
+    
+    margin-top: 12px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    /* border: 1px solid black; */
+}
+.room-amenities{
+    width: 56%;
+}
+.khalicontainer h3{
+    width: auto;
+    /* background-color: rgba(159, 159, 151, 0.44); */
+    height: 40px;
+    /* text-align: center; */
+    padding: 6px 0px 0px 0px;
+    color: rgb(0, 0, 145);
+    font-size: 25px;
+}
+.imagewithbtn{
+    border: 1px solid black;
+    margin: 0px 0px 0px 2px;
+    width: 100%;
+}
+#live-gallery-image{
+    display: flex;
+  
+}
+
+
+
+
+@media (max-width:1200px){
+    .room-gallery img{
+        width: 40rem;
+        height: 25rem;
+        padding-left: .8rempx;
+    }
+    .luxery-riverside-image img {
+        width: 100%;
+        height: 20rem;
+    }
+}
+@media (max-width:500px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .luxery-riverside-image img {
+        width: 100%;
+        height: 16rem;
+    }
+    .room-gallery img{
+        width: 19rem;
+        height: 13rem;
+        padding-left: .8rem;
+    }
+    .book-form{
+        margin: 0rem auto;
+        /* padding: 20px 20px 0px 20px; */
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        /* border: 2px solid black; */
+        box-shadow: 0 0 2rem .3rem rgba(0, 0, 0, 0.05)
+        
+    }
+    .book-form h2{
+        width: 20rem;
+        background-color: rgba(159, 159, 151, 0.44);
+        height: 3.0rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        color: rgb(0, 0, 145);
+        font-size: 1.6rem;
+    }
+    .book-form input{
+        padding: 1rem;
+        width: 15rem;
+        border: none;
+        background-color: rgba(159, 159, 151, 0.44);
+        border-radius: 1.2rem;
+    }
+    .book-form select{
+        padding: 1.0rem;
+        width: 17rem;
+        border: none;
+        background-color: rgba(159, 159, 151, 0.44);
+        border-radius: 1.2rem;
+    }
+    .right-btn {
+        left: 96%;
+        bottom: 34%;
+    }
+    .room-image-container-1 img {
+        /* box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.456); */
+        width: 350px;
+        height: 319px;
+        margin: 4px 2px;
+        padding: 0px 6px;
+        /* border: 8px solid #fff; */
+    }
+    .room-text-container {
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin-left: 12px; */
+        width: 360px;
+        height: 57px;
+        /* padding: 6px; */
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+        bottom: 65px;
+        background-color: #fff;
+        color: #cc8c18;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 1rem;
+       
+    }
+    .room-amenities h3 {
+        width: auto;
+        /* background-color: rgba(159, 159, 151, 0.44); */
+        height: 40px;
+        /* text-align: center; */
+        padding: -2px 0px 0px 40px;
+        color: rgb(0, 0, 145);
+        font-size: 20px;
+    }
+    .flex-1 {
+        margin-top: 15px;
+        padding-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        /* border: 1px solid black; */
+    }
+}

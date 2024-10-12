@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.amenities i{
+    color: #cc8c18;
+    padding-top: 20px;
+font-size: 40px;
+text-align: center;
+}
+.amenities{
+    width: 315px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+/* border: 2px solid black; */
+padding: 12px 12px 40px 12px;
+box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05)
+}
+.amenities h4{
+    color: rgb(0, 0, 145);
+    padding-top: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+.room-amenities h3{
+    text-align: center;
+    width: auto;
+    /* background-color: rgba(159, 159, 151, 0.44); */
+    height: 40px;
+    /* text-align: center; */
+    padding: 6px 0px 0px 40px;
+    color: rgb(0, 0, 145);
+    font-size: 25px;
+}
+
+
+.image-of-resort img{
+    width: 100%;
+    height: 30rem;
+   
+}
+.text-aminities h2{
+    margin: 1rem 0rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.text-image{
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-aminities img{
+width: 30rem;
+height: 25rem;
+border-radius: .4rem;
+}
+.text-aminities-content{
+    width: 50%;
+   
+}
+.text-aminities-content p{
+    margin: 2rem 0rem;
+    font-size: 1.2rem;
+}
+.flex-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:1rem 0rem;
+}
+
+@media (max-width:1000px){
+    .image-aminities img {
+        width: 20rem;
+        height: 15rem;
+        border-radius: .4rem;
+    }
+    .text-aminities-content{
+        width: 80%;
+    }
+    .image-of-resort img{
+        width: 100%;
+        height: 20rem;
+       
+    }
+}

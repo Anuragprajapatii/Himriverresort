@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+.map-with-form{
+    margin: 5rem 0rem ;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.contact-us-form{
+    background-image: url("/images/edited/birthday-bg.webp");
+    background-size: cover;
+    /* border: .2rem solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 2rem;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+    margin:0rem;
+}
+.contact-us-form input{
+padding: .6rem;
+margin: .5rem;
+font-size: 1rem;
+
+}
+.contact-us-form span {
+    text-align: center;
+}
+.form-text-contact{
+    text-align: center;
+}
+.btn-call-contact button{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1.4rem;
+    font-size: 17px;
+    border: 2px solid transparent;
+    background-color: #b28756;
+}
+.btn-call-contact button:hover{
+    border:2px solid #b28756;
+    color: #b28756;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+.birthday img{
+width: 100%;
+height: 25rem;
+}
+.birthday-image img{
+    width: 40rem;
+    height: auto;
+    padding: 3rem;
+}
+.birthday-content{
+    display: flex;
+    gap: 5rem;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.birthday-content p{
+    padding: .5rem .5rem;
+    font-size: 1.2rem;
+
+}
+.text-include{
+    text-align: center;
+}
+.birthday-gallery img{
+    width: 20rem;
+    height: 14rem;
+    padding: .6rem;
+    border: 4px solid rgba(83, 79, 79, 0.741);   
+}
+.birthday-include{
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.birthday-gallery{
+    /* width: 55%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  margin: 0px;
+    /* border: 1px solid black; */
+}
+.rotate-image{
+    rotate: 270deg;
+}
+.birthday-gallery-form{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+textarea::placeholder{
+    text-align: center;
+}
+
+@media (max-width:800px){
+
+html.body{
+    overflow-x: hidden;
+}
+.birthday img {
+    width: 100%;
+    height: 17rem;
+}
+
+    .birthday-image img {
+        width: 20rem;
+        height: auto;
+        padding: 1rem;
+    }
+    .birthday-include {
+        width: 80%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contact-us-form {
+        /* border: .2rem solid black; */
+      
+        width: 18rem;
+       
+    }
+}

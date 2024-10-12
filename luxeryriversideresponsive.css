@@ -1,0 +1,15 @@
+@media(max-width:1235px){
+/* .gallery-images img{
+    width: 350px;
+    height: 350px;
+    /* border: 2px solid red;
+    
+  }  */
+  .inlargeimage img{
+    width: auto;
+    height: 300px;
+    /* max-width: 500px; */
+    border-radius: 20px;
+   
+}
+}

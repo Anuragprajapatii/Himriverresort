@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+.fargi-cntr{
+    height: 6rem;
+}
+.contact-us{
+    margin-top: 0rem;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.contact-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.container-3 i{
+    color: #b28756;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    border: 2px dashed #b28756;
+   
+}
+.container-3{
+    width: 26rem;
+    height: 13rem;
+    /* border: 2px solid red; */
+    padding: 4px 0px 0px 0px;
+    display: flex;
+ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+}
+.container-3:hover{
+  box-shadow: none;
+  color: white;
+  background-color: #b28756;
+  transition: all .4s ease;
+}
+.container-3:hover .contact-text{
+    color: white;
+}
+.container-3:hover a{
+    color: white;
+}
+.container-3:hover i{
+border: 2px dashed white;
+color: white;
+}
+.location{
+    display: flex;
+    justify-content: center;
+}
+.contact-text{
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    color: #b28756;
+}
+.contact-text a{
+    text-decoration: none;
+    color: #b28756;
+}
+.google-map iframe{
+    width: 50rem;
+    height: 30rem;
+    
+}
+.google-map{
+    border: 2px dashed black;
+    
+}
+.map-with-form{
+    margin: 5rem 0rem ;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-us-form{
+    /* border: .2rem solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 2rem;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+}
+.contact-us-form input{
+padding: .6rem;
+margin: .5rem;
+font-size: 1rem;
+
+}
+.contact-us-form span {
+    text-align: center;
+}
+.form-text-contact{
+    text-align: center;
+}
+.btn-call-contact button{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1.4rem;
+    font-size: 17px;
+    border: 2px solid transparent;
+    background-color: #b28756;
+}
+.btn-call-contact button:hover{
+    border:2px solid #b28756;
+    color: #b28756;
+    background-color: white;
+    transition: all 1s ease;
+}
+.contact-container-3 a{
+    text-decoration: none;
+}
+
+@media (max-width:800px){
+    .google-map iframe{
+        width: 20rem;
+        height: 22rem;
+        
+    }
+    .contact-us-form{
+        /* border: .2rem solid black; */
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        padding: 1rem;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+    }
+    .form-text-contact{
+        text-align: center;
+        font-size: .9rem;
+    }
+}

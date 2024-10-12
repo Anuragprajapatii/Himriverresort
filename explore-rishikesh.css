@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+.rishikesh-place-container{
+    width: 30rem;
+    height: 37rem;
+    /* border: .1rem solid black; */
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+}
+.rishikesh-place-container img{
+    width: 30rem;
+    height: 25rem;
+}
+.about-place{
+    padding: .8rem;
+}
+.about-place h2{
+    font-family: "Poppins";
+    color: #cc8c18;
+}
+.about-place p{
+    font-size: 1.1rem;
+}
+.explore-rishikesh-flex{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+.fargi-container{
+    height: 8rem;
+}
+@media only screen and (max-width:600px){
+    .rishikesh-place-container img{
+        width: 20rem;
+        height: 15rem;
+    }
+    .rishikesh-place-container{
+        width: 20rem;
+        height: 25rem;
+        /* border: .1rem solid black; */
+        box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    }
+    .about-place p{
+        font-size: .8rem;
+    }
+    .explore-rishikesh-flex{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        justify-content: center;
+    }
+    .about-place h2{
+        font-size: 1rem;
+        font-family: "Poppins";
+        color: #cc8c18;
+    }
+}

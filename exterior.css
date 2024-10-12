@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.extirior-video video{
+    width: 40rem;
+    height: 35rem;
+   
+}
+.extirior-video{
+    display: flex;
+    justify-content: center;
+}
+.image-dimention img{
+    width: 18rem;
+    height: 14rem;
+    padding:.4rem;
+    border: .1rem solid transparent;
+    box-shadow: 0 0 2rem .3rem rgba(0, 0, 0, 0.05);
+}
+.gallery-flex-images{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: center;
+}
+
+@media (max-width:800px){
+    .extirior-video video {
+        width: 21rem;
+        height: 20rem;
+    }
+}

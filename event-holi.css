@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.holi-image img{
+    width: 100%;
+    height: 20rem;
+}
+.image-holi-include{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text-holi h1{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.rishikesh-holi-img img{
+    width: 35rem;
+    height: 25rem;
+    padding: 3rem 1rem;
+   
+    /* height: rem; */
+}
+.holi-include{
+    width: 40rem;
+    padding: 2.4rem;
+    font-size: 1.2rem;
+}
+
+
+
+/* this is the contact form  */
+.map-with-form{
+    margin: 5rem 0rem ;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.contact-us-form{
+    background-image: url("/images/edited/holi-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4rem auto;
+    /* border: .2rem solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    padding: 2rem;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+}
+.contact-us-form input{
+padding: .6rem;
+margin: .5rem;
+font-size: 1rem;
+
+}
+.contact-us-form span {
+    text-align: center;
+}
+.form-text-contact{
+    text-align: center;
+}
+.btn-call-contact button{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1.4rem;
+    font-size: 17px;
+    border: 2px solid transparent;
+    background-color: #b28756;
+}
+.btn-call-contact button:hover{
+    border:2px solid #b28756;
+    color: #b28756;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+
+@media(max-width:1000px){
+    .contact-us-form {
+        background-image: url(/images/edited/holi-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 4rem auto;
+        /* border: .2rem solid black; */
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+        padding: 2rem;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.151), 0 0px 6px 0 rgba(0, 0, 0, 0.162);
+    }
+    .rishikesh-holi-img img {
+        width: 20rem;
+        height: 15rem;
+        padding: 3rem 1rem;
+    }
+    .contact-us-form input{
+        padding: .6rem;
+        margin: .5rem;
+        font-size: 1rem;
+        width: auto;
+        }
+}

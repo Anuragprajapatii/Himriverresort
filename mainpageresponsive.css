@@ -1,0 +1,153 @@
+@media (max-width:1376px){
+    .main-book-button h1{
+        /* position: absolute; */
+        /* top: -336px;
+        left: -67px; */
+        font-size: 23px;
+        text-align: center;
+        background:linear-gradient(to right ,#6e3e02,#e7b67e) ;
+        color: transparent;
+        -webkit-background-clip: text;
+        margin: -500px 12px 12px 12px;
+        display:none;
+    }
+    .for-responsive{
+      display: flex;
+      justify-content: space-around;
+    }
+    .toggle-bar{
+      position: static;
+      height: 55px;
+    
+    }
+    .nav-bar{
+      position: fixed;
+    }
+  .nav-onscroll{
+    height: 46px;
+   width:100%;
+   position: fixed
+  }
+   .toggle-bar i{
+    display: block;
+   }
+
+   .watsapp-btn img {
+    width: 48px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+    .nav-bar ul li{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .logo .hamberger-menu{
+        display: block;
+    }
+    .main-book-button button{
+        display: none;
+    }
+    
+     .information .form-text{
+        font-size: 20px;
+     }
+    .information{
+        margin: 10px 10px 10px 10px;
+        background-color: #ffe5c6d4;
+        border-radius: 9px;
+        position: relative;
+        left: 0%;
+        top: 0%;
+        
+      
+     }
+   .information input{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px 2px 2px 2px;
+    width: 80%;
+    margin: 8px 0px 0px 0px;
+   }
+   .image{
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+  }
+  .call-fixed span{
+    display: none;
+}
+
+
+ 
+.google-reviews{
+  display: none;
+}
+ 
+
+
+
+.to-do-video video {
+  height: 345px;
+  width: 400px;
+  margin: 0px;
+  filter: brightness(50%);
+}
+
+.type-of-room{
+  justify-content: center;
+}
+  /* .platform-image img{
+ 
+  margin: 0px 14px 0px 14px;
+  width: auto;
+  height: 30px;
+  border: 2px dashed black;
+  padding: 10px;}   */
+ .retreat-option-1{
+  width: 340px;
+  height: 550px;
+ }
+ .retreat-option-1 img{
+  width: 340px;
+ }
+ .retreat-bar-option-3{
+  gap: 4px;
+ }
+ .text-to-do h1{
+  font-size: 20px;
+ }
+
+.copyright {
+  font-size: 9px;
+  margin-top: -8px;
+  background-color: #1B232E;
+  padding: 12px;
+  color: rgb(251, 245, 245);
+}
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+  .review-content-display{
+    overflow-x: scroll;
+  }
+  .gallery{
+    overflow-x: scroll;
+  }
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+.review-content-display::-webkit-scrollbar{
+  display: none;
+}
+}
